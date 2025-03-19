@@ -1341,7 +1341,7 @@
   (symbol (lib_id "Device:C") (at 149.86 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a289c90-e725-47e3-870c-d0e53aac1fac)
-    (property "Reference" "C1" (at 149.86 55.88 90)
+    (property "Reference" "0.1μF" (at 149.86 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 149.86 58.42 90)
@@ -1358,7 +1358,7 @@
     (instances
       (project "MCP23008 Keypad Breakout"
         (path "/06961e75-9629-4ee8-a7dc-c0a8ae24d9cc"
-          (reference "C1") (unit 1)
+          (reference "0.1μF") (unit 1)
         )
       )
     )
@@ -1415,9 +1415,9 @@
   )
 
   (symbol (lib_id "Device:R") (at 116.84 77.47 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 624ffddd-d03f-496e-87b3-08a9de0e9c82)
-    (property "Reference" "R2" (at 116.84 72.39 90)
+    (property "Reference" "4.7kΩ" (at 120.015 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 116.84 74.93 90)
@@ -1434,7 +1434,7 @@
     (instances
       (project "MCP23008 Keypad Breakout"
         (path "/06961e75-9629-4ee8-a7dc-c0a8ae24d9cc"
-          (reference "R2") (unit 1)
+          (reference "4.7kΩ") (unit 1)
         )
       )
     )
@@ -1560,7 +1560,7 @@
   (symbol (lib_id "Device:R") (at 116.84 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd226a76-6aa9-4023-aa0b-f53371c4f2fd)
-    (property "Reference" "R1" (at 116.84 69.85 90)
+    (property "Reference" "4.7kΩ" (at 116.84 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 116.84 72.39 90)
@@ -1577,7 +1577,7 @@
     (instances
       (project "MCP23008 Keypad Breakout"
         (path "/06961e75-9629-4ee8-a7dc-c0a8ae24d9cc"
-          (reference "R1") (unit 1)
+          (reference "4.7kΩ") (unit 1)
         )
       )
     )
